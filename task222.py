@@ -1,9 +1,6 @@
 from mpi4py import MPI
 from random import uniform
 
-from mpi4py import MPI
-from random import uniform
-
 comm = MPI.COMM_WORLD
 #comm is the communicator object. Its methods will be used
 #to carry out between processes.
